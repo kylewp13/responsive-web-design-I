@@ -374,4 +374,23 @@ form {
 		#middle-img {
 			margin-bottom: 0;
 		}
+
+		#top_header {
+			margin: 20px 0
+		}
+
+		#top_header h1, #top_header p { 
+			margin: 20px auto;
+			width: 90%;
+		}
+
+		.child_container {
+			margin: 10px auto;
+			width: 90%;
+		}
+
+		.bottom_container {
+			width: 90%;
+			margin: 20px auto;
+		}
 }
