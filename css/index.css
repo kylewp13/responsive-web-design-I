@@ -296,3 +296,82 @@ form {
     display: none;
   }
 }
+
+@media (max-width: 500px){
+		
+		.navBar {
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			position: static;
+		}
+
+		header .navBar #nav {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		header .navBar #nav a {
+			font-size: 20px;
+			display: inline-block;
+			padding: 20px 0;
+			margin: 0;
+			border-bottom: 1px solid black;
+			text-align: center;
+		}
+
+		header .navBar #nav a:first-child {
+			border-top: 1px solid black;
+			margin-top: 20px;
+		}
+
+		header .navBar a .logo {
+			margin: 0;
+		}
+
+		#top {
+			margin: 20px 5%;
+		}
+
+		body header .navBar #top	{
+			margin: 0 5% 0 5%;
+			border-bottom: 2px solid black;
+		}
+
+		.flex_container {
+			flex-direction: column;
+		}
+
+		.twoColumn, .threeColumn {
+			width: 100%;
+			margin-top: 20px;
+		}
+
+		#threeColumn {
+			padding-bottom: 0;
+		}
+
+		header {
+			margin: 0;
+		}
+		
+		main {
+			margin: 0 5%;
+		}
+
+		footer {
+			margin: 20px 5%;
+		}
+
+		img {
+			margin-bottom: 0;
+		}
+
+		#middle-img {
+			margin-bottom: 0;
+		}
+}
